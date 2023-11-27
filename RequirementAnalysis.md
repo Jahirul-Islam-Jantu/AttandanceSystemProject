@@ -5,7 +5,7 @@
   We need an attendance system. Students can create their own profile. Admin can see list of students and their attendances. Admin can enable and disable attend button, also this button can be disabled based on a timer. Each time admin enable attend button, students can participate for only once. Each day, student will have time sheet of attendance.
   Students can see their own time logs and attend when enabled.
 
-  \* Analysis of Client's requirement.
+  //\* Functional Requirements
 
   \* Admin
 
@@ -39,3 +39,16 @@
   - Table view
 - Active users can participate in attendance system
 - User can logout
+
+// \* Requirement Analysis
+
+- Models:
+  - Admin
+    - Name
+    - Email
+    - Password
+  - Student
+    - Name
+    - Email
+    - Password
+    - AccountStatus
