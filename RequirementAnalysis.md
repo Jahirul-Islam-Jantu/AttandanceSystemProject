@@ -106,3 +106,7 @@
     - PATCH/ profiles/profileId(privet)
     - DELETE/ profiles/profileId(privet)
     - GET/ profiles/profileId(privet)
+    - GET/ time-sheet/ userId(privet)
+    - GET/ time-sheet/ stats
+    - GET/ attendance/ enable(privet)
+    - GET/ attendance/disabled:attendanceId(privet)
