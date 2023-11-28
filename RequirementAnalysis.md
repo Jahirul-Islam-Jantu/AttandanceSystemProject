@@ -45,27 +45,64 @@
 - Models:
 
   - Admin
+
     - Name
     - Email
     - Password
 
   - Student
+
     - Name
     - Email
     - Password
     - AccountStatus
 
   - User
+
     - Name
     - Email
     - Password
     - Roles: [Admin, Student, Notice]
     - AccountStatus
-  
+
   - Profile
+
     - First Name
     - Last Name
     - Phone No
     - Profile Picture
     - User
 
+  - StudentAttendance
+
+    - UserId
+    - CreatedAt: DateTime
+
+  - Admin Attendance
+
+    - CreateAt: DateTime
+    - Status
+    - TimeLimit
+
+  - Student EndPoints
+
+    - POST/ auth/ Login(public)
+    - POST/ auth/ Register(public)
+    - PATCH/ Profile/ (Privet)
+    - PUT/ profile/avatar (privet)
+    - PUT/ auth/change-password(privet)
+    - GET/time-sheet(privet)
+    - GET/ attendance(privet)
+
+  - Admin EndPoints
+
+    - GET/ users(privet)
+    - POST/ users(privet)
+    - PATCH/ users/userId(privet)
+    - DELETE/ users/userId(privet)
+    - GET/ users/userId(privet)
+    - GET/ profiles(privet)
+    - POST/ Profile(privet)
+    - PATCH/ profiles/profileId(privet)
+    - DELETE/ profiles/profileId(privet)
+    - GET/ profiles/profileId(privet)
