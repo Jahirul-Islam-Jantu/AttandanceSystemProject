@@ -43,12 +43,29 @@
 // \* Requirement Analysis
 
 - Models:
+
   - Admin
     - Name
     - Email
     - Password
+
   - Student
     - Name
     - Email
     - Password
     - AccountStatus
+
+  - User
+    - Name
+    - Email
+    - Password
+    - Roles: [Admin, Student, Notice]
+    - AccountStatus
+  
+  - Profile
+    - First Name
+    - Last Name
+    - Phone No
+    - Profile Picture
+    - User
+
