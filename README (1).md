@@ -206,7 +206,3 @@ Decision Tree একটা ডায়াগ্রাম, অনেকটা ফ�
 ## Resource for this lecture
 
 এই লেকচারের সমস্ত রিসোর্স [লেকচার ১২](../../resources/lecture-12/README.md) এ পাবেন।
-
-## AUTHOR
-
-[Aditya Chakraborty](https://github.com/adityackr)
