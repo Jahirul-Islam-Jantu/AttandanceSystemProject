@@ -2,7 +2,16 @@
 
 # Create Models
 
+    * User
+    * Profile
+    * Student attendance model
+    * Admin attendance model
+
 # Authentication
+
+    * /register
+    * /login
+    * /change-password
 
 # Middlewares
 
