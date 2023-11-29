@@ -77,6 +77,7 @@
 
     - UserId
     - CreatedAt: DateTime
+    - Admin attendanceId
 
   - Admin Attendance
 
@@ -93,6 +94,7 @@
     - PUT/ auth/change-password(privet)
     - GET/time-sheet(privet)
     - GET/ attendance(privet)
+    - GET/ AttendanceStats(Privet)
 
   - Admin EndPoints
 
