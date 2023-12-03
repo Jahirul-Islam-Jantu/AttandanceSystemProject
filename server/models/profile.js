@@ -1,6 +1,6 @@
 const { model, Schema } = require("mongoose");
 
-const profileSchema = {
+const profileSchema = new Schema({
   firstName: String,
   lastName: String,
   phoneNo: String,
@@ -9,7 +9,7 @@ const profileSchema = {
     type: Schema.Types.ObjectId,
     ref: "user",
   },
-};
+});
 
 const profile = model("profile", profileSchema);
 
