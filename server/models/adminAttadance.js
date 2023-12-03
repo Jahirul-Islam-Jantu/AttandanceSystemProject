@@ -6,5 +6,5 @@ const adminAttendanceSchema = new Schema({
   createdAt: Date,
 });
 
-const adminAttendance = model("admin", adminAttendanceSchema);
+const adminAttendance = model("adminAttendance", adminAttendanceSchema);
 module.exports = adminAttendance;
