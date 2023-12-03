@@ -1,3 +1,3 @@
-app.listen(4000, () => {
-//   console.log("i am listening on port 4000!");
+app.get("/", (_, res) => {
+//   res.send("<h2>Thank you for your request in this server</h2>");
 // });
