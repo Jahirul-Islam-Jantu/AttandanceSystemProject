@@ -10,4 +10,6 @@ after add this starter you have to add a line on package.JSON file in the script
 npm run dev // this command will run automatically your server after every file save.
 
 yarn add mongoose // to create a mongoose library
+then create a model folder, create file of your models
+before start a mongoose model we must have to make a blueprint
  -->
